@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-headar">
+        <nav>
+            <a href="indext.html"><img src="/eduford_img/logo.png" class="logo"></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="indext.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="course.html">course</a></li>
+                    <li><a href="Blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showmenu()"></i>
+        </nav>
+
+    <h1>Our Certificate & Online Programs For 2024</h1>
+    </section>
+
+<!-- ---------------------blog ----------------- -->
+
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="/eduford_img/certificate.jpg">
+            <h2>Our Certificate & Online Programs For 2024</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit illo distinctio eius laboriosam maiores repellendus dolor facilis itaque delectus laborum ad sit, ipsa, saepe ipsum aperiam repellat, corporis nam nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit provident deserunt officia. Illum a facere, deserunt optio fugiat dignissimos laudantium iure amet, esse id itaque incidunt skhavhefqefef efewaspernatur eum vero ad?</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque minima, quisquam fugiat, totam ratione magni earum, dicta harum eum illo velit reprehenderit inventore cumque? Obcaecati nam nostrum ut temporibus reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eveniet possimus laboriosam illo molestiae sit deserunt voluptatibus ducimus, nostrum impedit repellat voluptate voluptatem distinctio deleniti! Laboriosam omnis voluptatibus modi molestiae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nesciunt, ratione tempore, pariatur quia possimus, distinctio consequuntur nihil quo repellat voluptatibus id beatae eum. Vero quis reprehenderit aliquid voluptatem impedit?</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit illo distinctio eius laboriosam maiores repellendus dolor facilis itaque delectus laborum ad sit, ipsa, saepe ipsum aperiam repellat, corporis nam nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit provident deserunt officia. Illum a facere, deserunt optio fugiat dignissimos laudantium iure amet, esse id itaque incidunt skhavhefqefef efewaspernatur eum vero ad?</p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+
+                <form class="comment-form">
+
+                    <input type="text" placeholder="Enter name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="blog-right">
+            <h3> Post Categories</h3>
+            <div>
+                <span>Business analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Python</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>JAVA</span>
+                <span>29</span>
+            </div>
+            <div>
+                <span>HTML</span>
+                <span>30</span>
+            </div>
+            <div>
+                <span>C,C++</span>
+                <span>33</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>32</span>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+ <!-- --------------- footer------------- -->
+
+    <section class="footer">
+        <h4> About us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique mollitia commodi excepturi <br>illum maiores. Eos, maiores sunt. Obcaecati, dignissimos natus nesciunt,</p>
+        <div class="iocns">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            
+
+        </div>
+    </section>
+
+    <!-- ------------- javascript -------- togal menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showmenu(){
+            navLinks.style.right="0";
+        }
+        function hidemenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

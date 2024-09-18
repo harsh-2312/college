@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-headar">
+        <nav>
+            <a href="indext.html"><img src="/eduford_img/logo.png" class="logo"></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="indext.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="course.html">course</a></li>
+                    <li><a href="Blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showmenu()"></i>
+        </nav>
+
+    <h1>Contact Us</h1>
+    </section>
+
+
+    <!-- --------------------- Contect us --------- -->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119036.828496296!2d72.75725919085112!3d21.196095744114643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e62e7128bb3%3A0x95b25311d0d9496c!2sSurat%20Castle!5e0!3m2!1sen!2sin!4v1725186793024!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                    <h5> ring roade surat </h5>
+                        <p>ABC jovandeep complax</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+91 23465239476</h5>
+                        <p> monday to saturday, 10am to 6pm </p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>harsh@gmail.com</h5>
+                        <p>Email us you query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="email" placeholder="Enter your email" required>
+                    <input type="text" placeholder="Enter your subject" required>
+                    <textarea rows="8" placeholder="Message required"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+                
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+ <!-- --------------- footer------------- -->
+
+    <section class="footer">
+        <h4> About us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique mollitia commodi excepturi <br>illum maiores. Eos, maiores sunt. Obcaecati, dignissimos natus nesciunt,</p>
+        <div class="iocns">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            
+
+        </div>
+    </section>
+
+    <!-- ------------- javascript -------- togal menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showmenu(){
+            navLinks.style.right="0";
+        }
+        function hidemenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
